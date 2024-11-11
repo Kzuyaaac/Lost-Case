@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chess Empire - A Chess Shooter Game</title>
+  <link rel="icon" href="/image/icp1.png" type="image/x-icon" />
+  <link rel="stylesheet" href="/css/styles.css" />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lora:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <img src="/image/chess-empire-banner.png" alt="Chess Empire Banner" class="banner" />
+
+    <h1>Chess Empire - A Chess Shooter Game</h1>
+    <p><strong>Platform:</strong> Android</p>
+    <p><strong>Release:</strong> September 2024</p>
+
+    <h3>Developer Team:</h3>
+    <ul> 
+    <li><a href="https://www.instagram.com/zahir_rh/" target="_blank" class="developer-name">Zahir Raihan Hakim (Project Manager, Art, Designer)</a></li>
+    <li><a href="https://www.instagram.com/arvanndd" target="_blank" class="developer-name">Arvand Cahil (AI Developer)</a></li>
+    <li><a href="https://www.instagram.com/ilyasa_daffas" target="_blank" class="developer-name">Ilyasa Daffa (Game Designer)</a></li>
+    <li><a href="https://www.instagram.com/foctopus" target="_blank" class="developer-name">Fabio Mana' Ahil (Main Programmer)</a></li>
+    <li><a href="https://www.instagram.com/alvalon188" target="_blank" class="developer-name">M. Zafran Al-Majid (VFX Artist)</a></li>
+    </ul>
+
+    <h3>Game Description:</h3>
+    <p><em>Chess Empire</em> is a strategy game inspired by <a href="https://g.co/kgs/uCkgrmv" target="_blank"><strong>Shotgun King</strong></a>. It combines traditional chess with exciting shooter mechanics. Players control the black king, armed with a shotgun, and face enemies—white chess pieces—that move according to chess rules. The game challenges players' strategic thinking and tactical skills.</p>
+
+    <h3>Key Features:</h3>
+    <ul>
+      <li><i class="fa-solid fa-check-circle"></i> Intuitive Android controls for smooth mobile gameplay.</li>
+      <li><i class="fa-solid fa-check-circle"></i> Collect skill cards to transform into other chess pieces with special abilities.</li>
+      <li><i class="fa-solid fa-check-circle"></i> Multiple shotgun types and king skins for customization.</li>
+      <li><i class="fa-solid fa-check-circle"></i> Progress through increasingly challenging levels with a well-crafted storyline.</li>
+      <li><i class="fa-solid fa-check-circle"></i> Follow King Kael's journey to defend the kingdom of Yonarion from dark forces.</li>
+    </ul>
+
+    <h3>Storyline Summary:</h3>
+    <p>You play as King Kael, the last hope for Yonarion, defending it from the corrupted kingdom of Auroria. Using his strategic mind and powerful shotgun, Kael must fend off enemies turned into zombie-like creatures by dark powers.</p>
+
+    <h3>Gameplay Mechanics:</h3>
+    <ul>
+      <li><i class="fa-solid fa-chess-king"></i> Move the king and shoot enemies with the shotgun.</li>
+      <li><i class="fa-solid fa-chess-queen"></i> Use transformation skill cards to become different chess pieces.</li>
+      <li><i class="fa-solid fa-mobile-alt"></i> Fully designed for mobile—no keyboard inputs required.</li>
+    </ul>
+
+    <h3>Gallery</h3>
+    <div class="gallery">
+      <img src="/image/screenshot1.png" alt="Screenshot 1" onclick="openPopup(this.src)" />
+      <img src="/image/screenshot2.png" alt="Screenshot 2" onclick="openPopup(this.src)" />
+      <img src="/image/screenshot3.png" alt="Screenshot 3" onclick="openPopup(this.src)" />
+    </div>
+
+    <div class="popup" id="popup">
+      <span class="close" onclick="closePopup()">&times;</span>
+      <img src="" alt="Expanded Screenshot" id="popupImg">
+    </div>
+
+    <h3>Gameplay Clip</h3>
+    <div class="gameplay-clip">
+      <video controls>
+        <source src="/Video/chess-empire-gameplay.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+  </div>
+
+  <script>
+    function openPopup(src) {
+      document.getElementById("popup").style.display = "flex";
+      document.getElementById("popupImg").src = src;
+    }
+
+    function closePopup() {
+      document.getElementById("popup").style.display = "none";
+    }
+  </script>
+</body>
+</html>
